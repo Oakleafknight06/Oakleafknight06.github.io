@@ -1,11 +1,13 @@
 # Information Security Best Practices Compilation
+Updated 28 Jan 2023
 
 ## Recommendations
 
 - **Keep software up to date.**
+
 Don’t use an unsupported version of macOS, Windows, (8.1 and earlier), or anything else (iOS, Android, Linux). Don’t use a version of Android which is no longer receiving monthly security patches.
 
-If your device does not support a new version, try Linux on desktops or laptops, and LineageOS (if supported) on your Android phone. You don’t really have alternatives for iPhone, but one thing Apple does quite well is providing long software support, so it is likely you are due for an upgrade for other reasons too.
+If your device does not support a new version, try your preferred flavor of Linux on desktops or laptops, and LineageOS (if supported) on your Android phone. You don’t really have alternatives for iPhone, but one thing Apple does quite well is providing long software support, so it is likely you are due for an upgrade anyway.
 
 - **Use a (secure) password manager**
 
@@ -13,11 +15,11 @@ If your device does not support a new version, try Linux on desktops or laptops,
 
 		[Bitwarden](https://bitwarden.com)
 
-		A FOSS password manager. Can be self-hosted if desired
+		A FOSS password manager. Can be self-hosted if desired. Free and premium tiers.
 
 		[1Password](https://1password.com) 
 
-		Not FOSS, but has regular audits and works closely with password cracking community
+		Not FOSS, but has regular audits and works closely with password cracking community. In this respect it is better than Bitwarden. Starts at $4 a month, no free tier.
 
 	- [KeePass](https://keepass.info) (FOSS, A file format, compatible with many clients)
 
@@ -28,9 +30,13 @@ If your device does not support a new version, try Linux on desktops or laptops,
 		[KeePassium iOS](https://keepassium.com/) (paid)
 
 
-[Do](https://palant.info/2022/12/26/whats-in-a-pr-statement-lastpass-breach-explained/) [not](https://infosec.exchange/@epixoip/109585049354200263) use LastPass.
+[Don't](https://palant.info/2022/12/26/whats-in-a-pr-statement-lastpass-breach-explained/) use [LastPass](https://infosec.exchange/@epixoip/109585049354200263).
 
 Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when the happen. (These guidelines are also helpful when evaluating VPNs).
+
+- **Use a strong passphrase on your password manager**
+
+(And other accounts too)
 
 - **VPNs are not a security or privacy tool. They are for circumventing censorship.**
 
@@ -52,8 +58,9 @@ SMS is one of the least secure forms of online communication avaliable. Thus it 
 
 - **Use a privacy-respecting open source browser such as Firefox or Brave**
 
-- **[Full disk encryption](https://ssd.eff.org/glossary/full-disk-encryption) on your computer(s)**
-(Your phone will have this by default most likely)
+- **[Full volume encryption](https://ssd.eff.org/glossary/full-disk-encryption) on your devices**
+
+In macOS you can use FileVault (built in), on Windows Bitlocker (also built in), on Linux usually you can enable it in the installer. Encryption is enabled by default in iOS. For Android, as of Android 7, the emphasis is File Based Encryption (which is enabled by default in reputable devices). As of Android 10 it is required for all devices running Android.
 
 
 - **Secure open-source text/voice messaging**
@@ -88,14 +95,40 @@ An attacker need only break the weakest link in the chain. This is particularly 
 
 [Tom Scott video](https://www.youtube.com/watch?v=hGRii5f_uSc)
 
+[How to: Enable Two-factor Authentication](https://ssd.eff.org/module/how-enable-two-factor-authentication)
+
+**Passphrase**
+
+[https://www.useapassphrase.com](https://www.useapassphrase.com)
+
+[xkcd 936](https://xkcd.com/936/)
+
+[Don't pass on the new NIST password guidelines](https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/)
+
+**Password Managers**
+
+Some information, and pros/cons of using them (and why it is worth it to do so).
+
+[EFF](https://ssd.eff.org/module/animated-overview-using-password-managers-stay-safe-online)
+
+[https://lock.cmpxchg8b.com/passmgrs.html](https://lock.cmpxchg8b.com/passmgrs.html)
 
 ## Miscellaneous useful resources
 
-From ProtonMail.com
+[**How to encrypt your life in less than an hour**](https://www.freecodecamp.org/news/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3/)
 
-[For individuals](https://proton.me/support/new-account-owner-security-checklist?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
+**From ProtonMail.com**
 
-[For businesses](https://proton.me/business/security-guide?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
+- [For individuals](https://proton.me/support/new-account-owner-security-checklist?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
 
-Why weak encryption or giving governments a backdoor to WhatApp (Or Signal or any other secure communication) is a *very* bad idea: 
+- [For businesses](https://proton.me/business/security-guide?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
+
+**Why weak encryption or giving governments a backdoor to WhatApp (Or Signal or any other secure communication) is a *very* bad idea:**
+
    [Why The Government Shouldn't Break WhatsApp](https://www.youtube.com/watch?v=CINVwWHlzTY)
+
+**(Only tangentially related):**
+
+[Tom Scott - Why Electronic Voting Is Still A Bad Idea](https://www.youtube.com/watch?v=LkH2r-sNjQs)
+
+[The Problem with Time and Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)
