@@ -105,6 +105,10 @@ An attacker need only break the weakest link in the chain. This is particularly 
 
 [Don't pass on the new NIST password guidelines](https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/)
 
+[Diceware](https://theworld.com/~reinhold/diceware.html)
+
+[EFF Dice-Generated Passphrase](https://www.eff.org/dice)
+
 **Password Managers**
 
 Some information, and pros/cons of using them (and why it is worth it to do so).
@@ -115,20 +119,26 @@ Some information, and pros/cons of using them (and why it is worth it to do so).
 
 ## Miscellaneous useful resources
 
-[**How to encrypt your life in less than an hour**](https://www.freecodecamp.org/news/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3/)
+- [**How to encrypt your life in less than an hour**](https://www.freecodecamp.org/news/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3/)
 
-**From ProtonMail.com**
+- **From ProtonMail.com**
 
-- [For individuals](https://proton.me/support/new-account-owner-security-checklist?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
+	- [For individuals](https://proton.me/support/new-account-owner-security-checklist?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
 
-- [For businesses](https://proton.me/business/security-guide?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
+	- [For businesses](https://proton.me/business/security-guide?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
 
-**Why weak encryption or giving governments a backdoor to WhatApp (Or Signal or any other secure communication) is a *very* bad idea:**
+- **Why weak encryption or giving governments a backdoor to WhatApp (Or Signal or any other secure communication) is a *very* bad idea:**
 
    [Why The Government Shouldn't Break WhatsApp](https://www.youtube.com/watch?v=CINVwWHlzTY)
 
-**(Only tangentially related):**
+- [**Even if you're paying for the product, you're still the product**](https://pluralistic.net/2022/11/14/luxury-surveillance/#liar-liar)
 
-[Tom Scott - Why Electronic Voting Is Still A Bad Idea](https://www.youtube.com/watch?v=LkH2r-sNjQs)
+- [**"I had ice cream today"**](https://twitter.com/SwiftOnSecurity/status/1584119842562457600)
 
-[The Problem with Time and Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)
+	Why somebody will get mad about anything you say online
+
+- **(Only tangentially related):**
+
+	- [Tom Scott - Why Electronic Voting Is Still A Bad Idea](https://www.youtube.com/watch?v=LkH2r-sNjQs)
+
+	- [The Problem with Time and Timezones](https://www.youtube.com/watch?v=-5wpm-gesOY)
