@@ -32,7 +32,7 @@ If your device does not support a new version, try your preferred flavor of Linu
 
 [Don't](https://palant.info/2022/12/26/whats-in-a-pr-statement-lastpass-breach-explained/) use [LastPass](https://infosec.exchange/@epixoip/109585049354200263).
 
-Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when the happen. (These guidelines are also helpful when evaluating VPNs).
+Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when they happen. (These guidelines are also helpful when evaluating VPNs).
 
 - **Use a strong passphrase on your password manager**
 
@@ -60,7 +60,7 @@ SMS is one of the least secure forms of online communication avaliable. Thus it 
 
 - **[Full volume encryption](https://ssd.eff.org/glossary/full-disk-encryption) on your devices**
 
-In macOS you can use FileVault (built in), on Windows Bitlocker (also built in), on Linux usually you can enable it in the installer. Encryption is enabled by default in iOS. For Android, as of Android 7, the emphasis is File Based Encryption (which is enabled by default in reputable devices). As of Android 10 it is required for all devices running Android.
+In macOS you can use FileVault (built in), on Windows Bitlocker (also built in, but only on Windows 10/11 Pro), on Linux usually you can enable it in the installer. Encryption is enabled by default in iOS. For Android, as of Android 7, the emphasis is File Based Encryption (which is enabled by default in reputable devices). As of Android 10 it is required for all devices running Android.
 
 
 - **Secure open-source text/voice messaging**
