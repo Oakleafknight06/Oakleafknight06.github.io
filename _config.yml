@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Information Security Best Practices
-description: A list of things to discorage and mitigate cyber threats
+title: Oakleafknight's Blog of Things and Stuff
+description: I put various and sundry tech things here when I feel like it
 #>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
