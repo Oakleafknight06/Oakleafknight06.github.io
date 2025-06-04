@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Oakleafknight's Blog of Things and Stuff
-description: I put various and sundry tech things here when I feel like it
+title: Oakleafknight's Internet Corner
+description: I put things here when I feel like it. It's my little corner of the internet, where I can put projects I'm working on or information I've compiled which might be useful to others. Mostly tech / cybersecurity stuff.
 #>- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
