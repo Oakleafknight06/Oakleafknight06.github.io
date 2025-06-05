@@ -20,6 +20,7 @@ I had AppImages, but no .desktop entries, so I would have to go back to the dire
 7. An icon for the app must be present in your chosen icon theme already, or you won't have a desktop icon automatically. You can get the icon manually by grabbing it from the extracted AppImage from earlier and placing it in `~/.local/share/icons`.
 
 *helpful links:*
+
 [ArchWiki on desktop entries](https://wiki.archlinux.org/title/Desktop_entries#Application_entry)
 
 [Freedesktop wiki on `desktop-file-utils` package](https://www.freedesktop.org/wiki/Software/desktop-file-utils/)
