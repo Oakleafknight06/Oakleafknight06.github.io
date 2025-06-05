@@ -16,13 +16,11 @@ Time-based One Time Password (TOTP, the one with 6 numbers that rotate on a time
 [Authy](https://www.authy.com) or [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a) are proprietary solutions with good cloud sync/backup, but without an export function should you need it. [Raivo](https://raivo-otp.com/) for iOS and [Aegis](https://getaegis.app/) for Android are both open-source applications with good data portability, but you will have to manage the backups yourself (which is very important, as you will lose access to your accounts if you don't have these or the recovery codes.) 
 > Many password managers also support storing this in their password vault, which makes using and deciding to use this easier, but makes a small compromise in security in that were someone to obtain access to your password vault, they would have *everything*. (Add article about the pros and cons)
 
-2. Use a (secure) password manager
-    Avoid password reuse
-    Use strong passwords
-    Use a strong password you memorize for your password manager—you won't need to remember any of the others.
+2. **Use a (secure) password manager:**
+    Avoid password reuse and use strong passwords. Password reuse is perhaps the #1 cause of hacked accounts. If you reuse passwords, all your accounts are as vulnerable as whichever website stores your password with the least security. Use a strong password which you memorize for your password manager especially—you won't need to remember any of the others, so make this one count.
     *But why not just write them down in a book? Isn't it more secure to not be on a computer?* 
-    (refer to passwords article) Because books do not have easy tools to generate random passwords, nor are they as easy to use with all your computer things as something on a computer. Inconvenience and laziness which accompanies it are the enemies of good security. If you truly want to, you could write all your passwords down in a book, use diceware to randomly generate passwords, and type them all manually every time you use them. 
-
+    Because books do not have easy tools to generate random passwords, nor are they as easy to use with all your computer things as something on a computer. Inconvenience and laziness which accompanies it are the enemies of good security. If you truly want to, you could write all your passwords down in a book, use diceware to randomly generate passwords, and type them all manually every time you use them. 
+    ### Recommended Applications/Services
     - [Bitwarden](https://bitwarden.com)
     Free and Open-Source software, regular audits and is very well respected. Current top recommendation. Free with paid options.
     - [1Password](https://1password.com) 
@@ -30,33 +28,28 @@ Time-based One Time Password (TOTP, the one with 6 numbers that rotate on a time
     - [Proton Pass](https://proton.me/pass)
     FOSS, and from the people behind Proton Mail. Very new, but independently audited. Free with paid options.
     - KeePass 
-    FOSS, longstanding good reputation, data control. KeePass is more of a format than a particular app or service. There are multiple clients which can all open the encrypted password database file, which you create and manage yourself. For some this is a great feature, for others it's simply an opportunity to lose all their passwords more easily. Most people will be better off with Bitwarden. Here are the recommended clients:
-    1. [KeePass](https://keepass.info) The original, Windows only. Use version 2. (Free)
-    2. [KeePass XC](https://keepassxc.org/) Windows/macOS/Linux. Independently audited in 2023. (Free)
-	3. [KeePass DX](https://www.keepassdx.com/) Android (free)
-	4. [KeePassium](https://keepassium.com/) iOS, independently audited in 2024. (paid, but the free tier is plenty for most use cases)
-- Don't use LastPass — too many data security issues
-    - While it used to be recommended, LastPass has proven itself unable to cope with the security issues it has faced recently.
-    - [Tom's Guide on the repercussions of the breach](https://www.tomsguide.com/computing/password-managers/millions-stolen-from-lastpass-users-in-massive-hack-attack-what-you-need-to-know)
-    - [Blog post](https://palant.info/2022/12/26/whats-in-a-pr-statement-lastpass-breach-explained/) 
-    - [Mastodon post](https://infosec.exchange/@epixoip/109585049354200263)
+        FOSS, longstanding good reputation, data control. KeePass is more of a format than a particular app or service. There are multiple clients which can all open the encrypted password database file, which you create and manage yourself. For some this is a great feature, for others it's simply an opportunity to lose all their passwords more easily. Most people will be better off with Bitwarden. Here are the recommended clients:
+        1. [KeePass](https://keepass.info) The original, Windows only. Use version 2. (Free)
+        2. [KeePass XC](https://keepassxc.org/) Windows/macOS/Linux. Independently audited in 2023. (Free)
+	    3. [KeePass DX](https://www.keepassdx.com/) Android (free)
+	    4. [KeePassium](https://keepassium.com/) iOS, independently audited in 2024. (paid, but the free tier is plenty for most use cases)
+    - Don't use LastPass — too many data security issues
+        - While it used to be recommended, LastPass has proven itself unable to cope with the security issues it has faced recently.
+        - [Tom's Guide on the repercussions of the breach](https://www.tomsguide.com/computing/password-managers/millions-stolen-from-lastpass-users-in-massive-hack-attack-what-you-need-to-know)
+        - [Blog post](https://palant.info/2022/12/26/whats-in-a-pr-statement-lastpass-breach-explained/) 
+        - [Mastodon post](https://infosec.exchange/@epixoip/109585049354200263)
 
-- Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when they happen. (These guidelines are also helpful when evaluating VPNs).
+    - Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when they happen. (These guidelines are also helpful when evaluating VPNs).
 
-3. Check the "Stay Signed In" button on your browser
-- Bank esp, make anti-fraud fingerprinting work better
-- What about cookie stealing? "They're already getting arbitrary files on your computer anyway / could install a keylogger." Give discord/steam token stealing examples though, plus LTT hack
+4. **If you don’t need it, don’t install it.  If you’re not using it, uninstall it.  If you did not ask for it, don’t click on it.**
 
-4. If you don’t need it, don’t install it.  If you’re not using it, uninstall it.  If you did not ask for it, don’t click on it.
-
-5. Don't use browser extensions (Or at least heavily limit the ones you use)
+5. **Don't use browser extensions (Or at least heavily limit the ones you use):**
     When you install a browser extension, you give it access to almost everything in the browser. Most permissions are far more far-reaching than they appear. A malicious browser extension can do a lot (add blog post about this). Furthermore, their presence can limit built-in browser security by running untested code on web pages and connecting things that didn't need to be connected (more potential attack vectors).
 
-6. Run up-to-date software
-Don’t use an unsupported version of macOS, Windows, (8.1 and earlier), or anything else (iOS, Android, Linux). Don’t use a version of Android which is no longer receiving monthly security patches.
-If your device does not support a new version, try your preferred flavor of Linux on desktops or laptops, and LineageOS (if supported) on your Android phone. You don’t really have alternatives for iPhone, but one thing Apple does quite well is providing long software support, so it is likely you are due for an upgrade anyway.
+6. **Run up-to-date software:**
+Install operating system and application updates in a timely manner. Run the most up-to-date OS your hardware supports, and consider switching operating systems or upgrading your hardware when that is no longer possible. If an application (particularly anything which touches the internet) is no longer being maintained, consider using an alternative.
 
-7. VPNs are not a general-purpose security or privacy tool. They are for circumventing censorship, or other network restrictions. 
+7. **VPNs:** VPNs are not a general-purpose security or privacy tool. They are for circumventing censorship, or other network restrictions. 
 Most VPN marketing is lying to you. If you've seen a VPN ad in a YouTube video, you probably don't want to use that VPN. ([Video](https://youtu.be/WVDQEoe6ZWY) about VPN marketing details.) A VPN will not protect you from malicious websites or other danger on the internet.
 VPNs *can* be useful tools, however. [Mullvad](https://mullvad.net/en/) is one of the best, in both privacy and security of their service and utility in evading censorship. Astrill VPN is second-best for censorship, particularly in China. Otherwise they operate like most other VPN companies. [ProtonVPN](https://protonvpn.com) is a good option if all you need is protection from public airport WiFi, but it can't evade state level censorship. 
 
