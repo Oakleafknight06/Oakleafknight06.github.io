@@ -14,7 +14,6 @@ This document is aimed towards regular computer users, especially those who want
 ## Recommendations
 
 1. **Use 2FA (Two-Factor Authentication):**
-
 Time-based One Time Password (TOTP, the one with 6 numbers that rotate on a timer) is the most common standard. If something says it supports Google Authenticator or Authy this is what it supports. Only use SMS for two factor when there is no other option. 
 [Authy](https://www.authy.com) or [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a) are proprietary solutions with good cloud sync/backup, but without an export function should you need it. [Raivo](https://raivo-otp.com/) for iOS and [Aegis](https://getaegis.app/) for Android are both open-source applications with good data portability, but you will have to manage the backups yourself (which is very important, as you will lose access to your accounts if you don't have these or the recovery codes.) 
 > Many password managers also support storing this in their password vault, which makes using and deciding to use this easier, but makes a small compromise in security in that were someone to obtain access to your password vault, they would have *everything*. (Add article about the pros and cons)
@@ -86,33 +85,30 @@ Cloudflare's 1.1.1.1 is good, as is [Control D](https://controld.com). Use [DNS-
 	- A Firefox account & [Firefox Monitor](https://monitor.firefox.com/) makes this easier.
 
 ## Explainers and how-tos for the above
-**2FA/MFA: What they are and how to use them**
+- **2FA/MFA: What they are and how to use them**
 
-[EFF article](https://ssd.eff.org/module/how-enable-two-factor-authentication)
+    - [EFF article](https://ssd.eff.org/module/how-enable-two-factor-authentication)
 
-[Tom Scott video](https://www.youtube.com/watch?v=hGRii5f_uSc)
+    - [Tom Scott video](https://www.youtube.com/watch?v=hGRii5f_uSc)
 
-[How to: Enable Two-factor Authentication](https://ssd.eff.org/module/how-enable-two-factor-authentication)
+    - [How to: Enable Two-factor Authentication](https://ssd.eff.org/module/how-enable-two-factor-authentication)
 
-**Passphrase**
+- **Passphrase**
 
-[https://www.useapassphrase.com](https://www.useapassphrase.com)
+    - [https://www.useapassphrase.com](https://www.useapassphrase.com)
 
-[xkcd 936](https://xkcd.com/936/)
+    - [xkcd 936](https://xkcd.com/936/)
 
-[Don't pass on the new NIST password guidelines](https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/)
+    - [Don't pass on the new NIST password guidelines](https://auth0.com/blog/dont-pass-on-the-new-nist-password-guidelines/)
 
-[Diceware](https://theworld.com/~reinhold/diceware.html)
+    - [Diceware](https://theworld.com/~reinhold/diceware.html)
 
-[EFF Dice-Generated Passphrase](https://www.eff.org/dice)
+    - [EFF Dice-Generated Passphrase](https://www.eff.org/dice)
 
-**Password Managers**
+- **Password Managers**
+    - [EFF](https://ssd.eff.org/module/animated-overview-using-password-managers-stay-safe-online)
 
-Some information, and pros/cons of using them (and why it is worth it to do so).
-
-[EFF](https://ssd.eff.org/module/animated-overview-using-password-managers-stay-safe-online)
-
-[https://lock.cmpxchg8b.com/passmgrs.html](https://lock.cmpxchg8b.com/passmgrs.html)
+    - [https://lock.cmpxchg8b.com/passmgrs.html](https://lock.cmpxchg8b.com/passmgrs.html)
 
 ## Miscellaneous useful resources
 
@@ -124,9 +120,7 @@ Some information, and pros/cons of using them (and why it is worth it to do so).
 
 	- [For businesses](https://proton.me/business/security-guide?utm_campaign=ww-en-2c-generic-coms_email-monthly_newsletter&utm_source=proton_users&utm_medium=link&utm_content=2021_-_feb)
 
-- Why weak encryption or giving governments a backdoor to WhatsApp (Or Signal or any other secure communication) is a *very* bad idea:
-
-   [Why The Government Shouldn't Break WhatsApp](https://www.youtube.com/watch?v=CINVwWHlzTY)
+- Why weak encryption or giving governments a backdoor to WhatsApp (Or Signal or any other secure communication) is a *very* bad idea: [Why The Government Shouldn't Break WhatsApp](https://www.youtube.com/watch?v=CINVwWHlzTY)
 
 - [Even if you're paying for the product, you're still the product](https://pluralistic.net/2022/11/14/luxury-surveillance/#liar-liar)
 
