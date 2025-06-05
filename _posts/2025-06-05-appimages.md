@@ -10,7 +10,7 @@ While I try to avoid AppImages in general, in the past I have needed to run some
 ## the issue
 I had AppImages, but no .desktop entries, so I would have to go back to the directory I saved them in every time I wanted to launch the app.
 ## solution
-1. Put all AppImages in ~/AppImages/ (or other directory of your choice. We'll need this later when we modify the .desktop files.)
+1. Put all AppImages in `~/AppImages/` or another directory of your choice. We'll need this later when we modify the .desktop files.
 2. Extract the AppImage with ```./<filename>.AppImage --appimage-extract```
 > Use ```--appimage-help``` for more info about other commandline flags.
 3. Find the `.desktop` file in the ```squashfs-root``` folder created by the extraction.
@@ -21,5 +21,7 @@ I had AppImages, but no .desktop entries, so I would have to go back to the dire
 
 *helpful links:*
 [ArchWiki on desktop entries](https://wiki.archlinux.org/title/Desktop_entries#Application_entry)
+
 [Freedesktop wiki on `desktop-file-utils` package](https://www.freedesktop.org/wiki/Software/desktop-file-utils/)
+
 [AppImage docs on running, mounting, or extracting AppImages](https://docs.appimage.org/user-guide/run-appimages.html#mount-or-extract-appimages)
