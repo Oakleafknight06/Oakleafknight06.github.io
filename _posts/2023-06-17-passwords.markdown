@@ -1,5 +1,9 @@
-# Passwords, Passphrases, Strength of passwords, etc.
-
+---
+layout: post
+title: Passwords
+date: 2023-06-17
+published: false
+---
 ### Secure Passwords
 
 A secure password is one that is difficult for an adversary to guess, whether by brute force, educated speculation, or specific knowledge.
