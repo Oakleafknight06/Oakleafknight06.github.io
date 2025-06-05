@@ -7,11 +7,14 @@ published: true
 
 # Information Security Best Practices Compilation
 Updated 06 June 2025
+
+
 This document is aimed towards regular computer users, especially those who want security but don't know much about it. It's essentially a written version of what the resident tech person (i.e. yours truly) would tell the people in their life who consult them on (almost) any tech thing. It is not intended to be for companies, people with high security needs, or people who already know what they're talking about.
 
 ## Recommendations
 
-1. Use 2FA (Two-Factor Authentication)
+1. **Use 2FA (Two-Factor Authentication):**
+
 Time-based One Time Password (TOTP, the one with 6 numbers that rotate on a timer) is the most common standard. If something says it supports Google Authenticator or Authy this is what it supports. Only use SMS for two factor when there is no other option. 
 [Authy](https://www.authy.com) or [Microsoft Authenticator](https://support.microsoft.com/en-us/account-billing/download-microsoft-authenticator-351498fc-850a-45da-b7b6-27e523b8702a) are proprietary solutions with good cloud sync/backup, but without an export function should you need it. [Raivo](https://raivo-otp.com/) for iOS and [Aegis](https://getaegis.app/) for Android are both open-source applications with good data portability, but you will have to manage the backups yourself (which is very important, as you will lose access to your accounts if you don't have these or the recovery codes.) 
 > Many password managers also support storing this in their password vault, which makes using and deciding to use this easier, but makes a small compromise in security in that were someone to obtain access to your password vault, they would have *everything*. (Add article about the pros and cons)
@@ -40,6 +43,7 @@ Time-based One Time Password (TOTP, the one with 6 numbers that rotate on a time
         - [Mastodon post](https://infosec.exchange/@epixoip/109585049354200263)
 
     - Evaluate password managers based on their handling of sensitive data, transparency with regular third-party audits, cryptography, and competency in response to security incidents when they happen. (These guidelines are also helpful when evaluating VPNs).
+
 
 4. **If you don’t need it, don’t install it.  If you’re not using it, uninstall it.  If you did not ask for it, don’t click on it.**
 
