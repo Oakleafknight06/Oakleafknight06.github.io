@@ -5,6 +5,7 @@ date: 2025-07-04
 published: true
 ---
 
+## Intro
 You hear all the time that you should be using "Strong Passwords", but what does that mean, exactly? Do I need a complex password, a long one, both? How do password strength meters work? In this article I hope to shed some light on these topics.
 
 For this article, we will define a strong password as follows:
@@ -25,14 +26,14 @@ In essence this part means that if the attacker is able to guess how you made th
 Security through obscurity is only as secure as it is obscure, and will only remain obscure for a finite period. It is far more reliable to have a password that is mathematically secure even when the adversary knows exactly how you made it.
 
 ## Specific Intelligence
-The essence of this criterion is there should not be a piece of information an attacker targeting you could find out that would reveal the password to them, or make it significantly easier to guess. 
+The essence of this criterion is there should not be a piece of information available to an attacker targeting you which would reveal the password or make it significantly easier to guess. 
 Do not use any personally identifiable info in your password, such as birthdays, pets names, or anything else of the sort in your passwords. Anyone could easily find this information on Facebook, Instagram, and other social media sites where you have revealed this, or from public records and various data broker sites where you don't even have control over what gets shared. As a sidenote, this is why security questions to recover accounts are generally considered to be highly insecure. If you are forced to use them, give gibberish answers and write those down in a safe place rather than using the truth. The answers to those questions can usually be found for free, without much effort, if someone decides to look.
 
 Secondly, and more importantly, don't use duplicate passwords. If you do, no matter how strong the password, as soon as one account with the password is hacked, all of your accounts with that password are in the same boat. Once one password is leaked or stolen, attackers will try that email and password combination on any site they want. If you reused the password, they now have easy access to multiple of your online accounts, not just one.
 
 ## Calculating password strength
 
-To properly calculate password strength, a fundamental rule must be understood. When expressing the randomness of a password in terms of bits of entropy, this is really expressing the randomness of the *method* of password creation, rather than of the final password. In other words, the randomness of a password generation method is proportional to the number of possible passwords it could create.
+Before we calculate password strength, a fundamental rule must be understood. When expressing the randomness of a password in terms of bits of entropy, this is really expressing the randomness of the *method* of password creation, rather than of the final password. In other words, the randomness of a password generation method is proportional to the number of possible passwords it could create.
 
 It is for this reason that passwords which one simply comes up with are to be avoided. While the password itself may be *strong* enough, whether it is or not isn't mathematically verifiable. Using a specific method of generation (or algorithm, you could say), whether by a computer program or with dice and alist of words, provides a much greater assurance of the security provided by the password.
 
