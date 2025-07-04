@@ -7,7 +7,7 @@ published: false
 
 ## Description
 
-Power management is broken (simply not implemented by Nvidia) on mobile Turing (2000 series and 1600 series?) (Is it also broken on desktop, but not needed/not present?) in both nvidia proprietary drivers and nvidia-open drivers.
+Power management is broken (simply not implemented by Nvidia) on mobile Turing-based GPUs in both the nvidia proprietary drivers and nvidia-open drivers.
 Battery life is better with Noveau + NVK + GSP karg. Performance is better with nvidia-open, but then battery life is terrible because the GPU never goes into a power down / sleep state.
 
 > [!NOTE]
