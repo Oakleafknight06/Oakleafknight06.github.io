@@ -47,14 +47,14 @@ log(2)N is the equation to calculate entropy or randomness (for our purposes her
 where **l*** is the number of characters in the password.
 So if we have a 10-character password, N will equal 
 
-$`26x26x26x26x26x26x26x26x26x26`$
+$$26x26x26x26x26x26x26x26x26x26$$
 
 which is
 
-$`1.4e14`$
+$$1.4e14$$
 
 Entering that into our equation, 
-$`log_2(1.4e14)`,
+$$log_2(1.4e14)$$,
 we get an entropy value of 47 bits.
 
 This is not a secure password. As of 2023, 90 bits is considered pretty secure. To up the entropy of our password, we can add length (more from our alphabet or character set) or complexity (add more characters to our character set). [Add more examples of better passwords, with the maths. Maybe also add built-in calculator?] This is where the idea of a *passphrase* comes in. Instead of a string of characters, a passphrase is a string of words, such as *correct horse battery staple*. Diceware-style passphrases do both. Diceware uses a set of 7776 words to make a passphrase from. This is as if our alphabet is now 7776 words long. Much better than 26. And if someone assumed we were using the 26 letter alphabet character set (with spaces) then we have length too. We can also add a number or symbol to the start or end of one of our words for added complexity
