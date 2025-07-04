@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Power Management and driver issues for mobile Turing GPUs on Linux
-date: 2025-07-04
-published: false
+date: 2025-07-05
+published: true
 ---
 
 ## Description
@@ -15,7 +15,7 @@ Battery life is better with Noveau + NVK + GSP karg. Performance is better with 
 > `watch --interval 0.1 cat /sys/bus/pci/devices/0000:00:01.0/power_state`
 
 ## Switching Drivers
-*This setup is specific to (secureblue)[https://secureblue.dev], which I use. The kernel arguments and drivers used will apply to other systems, but are not as easy to switch between. Refer to secureblue documentation for the list of Nvidia kargs.
+*This setup is specific to [secureblue](https://secureblue.dev), which I use. The kernel arguments and drivers used will apply to other systems, but are not as easy to switch between. Refer to secureblue documentation for the list of Nvidia kargs.
 
 ### Nvidia-open to Noveau + NVK + GSP karg 
 1. `ujust remove-kargs-nvidia` (do not reboot afterwards)
