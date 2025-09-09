@@ -28,3 +28,5 @@ only 8 tries for FIDO. Thus 4 or 6 digit numerical pin should be alright, if it'
 https://support.yubico.com/hc/en-us/articles/360016649039-Installing-Yubico-Software-on-Linux
 
 ## (Y)user Guide
+https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/settings.html#settings-home-pin-complexity
+https://docs.yubico.com/software/yubikey/tools/authenticator/auth-guide/piv-certificates.html
