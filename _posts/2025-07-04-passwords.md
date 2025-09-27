@@ -85,6 +85,8 @@ And lastly, I hope you learned something interesting!
 
 [NIST SP800-63B Passwords Section](https://pages.nist.gov/800-63-4/sp800-63b/passwords/)
 
+[Hive Systems Password Table](https://www.hivesystems.com/blog/are-your-passwords-in-the-green)
+
 [Article from 2012 on password strength checkers](https://dropbox.tech/security/zxcvbn-realistic-password-strength-estimation)
 
 [Diceware](https://theworld.com/~reinhold/diceware.html)
