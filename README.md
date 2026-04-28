@@ -1,3 +1,5 @@
+# [DEPRECATED] See https://github.com/Oakleafknight06/darinonthe.net
+
 A website with tech tips and things I've learned with the technology I've used. 
 Hosted with GitHub Pages using Jekyll. 
 Feel free to open up an issue or PR if you think anything should be changed, feedback is welcome. 
